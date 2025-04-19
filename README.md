@@ -24,6 +24,7 @@ A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help
 
 - **Database Refreshing**: Automatically refreshes the database after each feature test.
 - **No Stray Requests**: Prevents accidental external HTTP requests during tests by configuring Laravel’s HTTP facade.
+- **Debug Bar**: Added debug bar in development enviroment.
 
 ### 🔒 Security Features
 
