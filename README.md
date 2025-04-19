@@ -28,18 +28,17 @@ A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help
 ### 📦 Eloquent Enhancements
 
 - **Strict Mode Enabled** for improved developer discipline:
-    - Prevents lazy loading.
-    - Blocks unknown attributes.
-    - Disallows access to missing attributes.
     - 👉 [Read more about Strict Mode](https://laravel-news.com/shouldbestrict)
 - **Automatic Eager Loading**: Boosts performance by preloading relationships intelligently.
     - 👉 [Read more about Eager Loading](https://laravel-news.com/laravel-12-8-0)
 
 ### 🎨 Styling & UI
 
-- **Noto Font Family**: Includes [Noto Family](https://fonts.google.com/noto) for Sans, Serif, and Mono variants for visual consistency.
+- **Noto Font Family**: - includes Sans, Serif, and Mono variants for visual consistency.
+    - 👉 [Check Noto Font Family](https://laravel-news.com/shouldbestrict)
+- **Blade Icons**: Uses Fluent UI System icons by default.
+    - 👉 [Search Fluent UI System](https://fluenticons.co)
 - **Custom Color Palette**: Extended Tailwind palette for greater design flexibility.
-- **Blade Icons**: Uses [Fluent System](https://fluenticons.co) icons by default.
 
 ### 🧩 Blade Layouts
 
