@@ -18,8 +18,8 @@ A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help
 
 ### 🔧 Code Quality
 
-- Preconfigured with **Laravel Pint** and **Rector** for automatic formatting and refactoring.
-- Run `composer prepare` to lint, test, and format your codebase in one command.
+- Preconfigured with **Laravel Pint**, **PHPStan** and **Rector** for automatic formatting, type checking and refactoring.
+- Run `composer prepare` to fix code issues in one single command.
 
 ### 📦 Eloquent Enhancements
 
@@ -29,10 +29,11 @@ A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help
     - Disallows access to missing attributes.
     - 👉 [Read more about Strict Mode](https://laravel-news.com/shouldbestrict)
 - **Automatic Eager Loading**: Boosts performance by preloading relationships intelligently.
+    - 👉 [Read more about Eager Loading](https://laravel-news.com/laravel-12-8-0)
 
 ### 🎨 Styling & UI
 
-- **Noto Font Family**: Includes Sans, Serif, and Mono variants for visual consistency.
+- **Noto Font Family**: Includes [Noto Family](https://fonts.google.com/noto) for Sans, Serif, and Mono variants for visual consistency.
 - **Custom Color Palette**: Extended Tailwind palette for greater design flexibility.
 - **Blade Icons**: Uses [Fluent System](https://fluenticons.co) icons by default.
 
