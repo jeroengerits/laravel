@@ -1,0 +1,258 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Import Tailwind CSS */
+@import 'tailwindcss';
+
+/* Source Laravel Pagination */
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+
+/* Source Laravel Storage */
+@source '../../storage/framework/views/*.php';
+
+/* Source Blade Components */
+@source '../**/*.blade.php';
+
+/* Source JavaScript */
+@source '../**/*.js';
+
+/* Theme Custom Variables */
+@theme {
+    /* Typography */
+    --font-sans: 'Noto Sans', ui-sans-serif;
+    --font-serif: 'Noto Serif', ui-serif;
+    --font-mono: 'Noto Sans Mono', ui-monospace;
+
+    /* Color Palette */
+    --color-rose-50: 255 246 248;
+    --color-rose-100: 255 229 233;
+    --color-rose-200: 255 197 207;
+    --color-rose-300: 248 153 173;
+    --color-rose-400: 253 87 135;
+    --color-rose-500: 231 10 105;
+    --color-rose-600: 189 0 84;
+    --color-rose-700: 149 0 64;
+    --color-rose-800: 108 0 45;
+    --color-rose-900: 73 0 28;
+
+    --color-cerise-50: 255 246 247;
+    --color-cerise-100: 255 229 229;
+    --color-cerise-200: 255 198 199;
+    --color-cerise-300: 253 152 159;
+    --color-cerise-400: 253 91 112;
+    --color-cerise-500: 230 28 79;
+    --color-cerise-600: 188 17 63;
+    --color-cerise-700: 148 10 47;
+    --color-cerise-800: 108 6 32;
+    --color-cerise-900: 73 2 18;
+
+    --color-ruby-50: 255 247 247;
+    --color-ruby-100: 255 229 227;
+    --color-ruby-200: 255 199 194;
+    --color-ruby-300: 254 153 144;
+    --color-ruby-400: 254 92 88;
+    --color-ruby-500: 235 14 47;
+    --color-ruby-600: 191 13 36;
+    --color-ruby-700: 150 7 25;
+    --color-ruby-800: 110 3 15;
+    --color-ruby-900: 73 4 2;
+
+    --color-carrot-50: 255 247 245;
+    --color-carrot-100: 254 230 223;
+    --color-carrot-200: 252 201 184;
+    --color-carrot-300: 254 155 125;
+    --color-carrot-400: 255 94 50;
+    --color-carrot-500: 225 50 3;
+    --color-carrot-600: 184 37 2;
+    --color-carrot-700: 143 30 2;
+    --color-carrot-800: 100 25 2;
+    --color-carrot-900: 64 18 0;
+
+    --color-orange-50: 254 247 241;
+    --color-orange-100: 255 231 206;
+    --color-orange-200: 255 203 135;
+    --color-orange-300: 248 162 21;
+    --color-orange-400: 212 128 2;
+    --color-orange-500: 175 100 0;
+    --color-orange-600: 144 79 0;
+    --color-orange-700: 114 59 1;
+    --color-orange-800: 83 40 2;
+    --color-orange-900: 54 26 0;
+
+    --color-gold-50: 251 248 242;
+    --color-gold-100: 255 233 186;
+    --color-gold-200: 249 208 62;
+    --color-gold-300: 221 175 0;
+    --color-gold-400: 190 139 0;
+    --color-gold-500: 157 110 0;
+    --color-gold-600: 129 87 0;
+    --color-gold-700: 102 66 0;
+    --color-gold-800: 75 45 0;
+    --color-gold-900: 49 28 0;
+
+    --color-lemon-50: 250 249 242;
+    --color-lemon-100: 243 240 137;
+    --color-lemon-200: 220 219 9;
+    --color-lemon-300: 195 184 2;
+    --color-lemon-400: 166 149 0;
+    --color-lemon-500: 137 118 0;
+    --color-lemon-600: 113 94 0;
+    --color-lemon-700: 91 71 0;
+    --color-lemon-800: 67 49 0;
+    --color-lemon-900: 44 30 0;
+
+    --color-lime-50: 248 249 242;
+    --color-lime-100: 218 248 109;
+    --color-lime-200: 183 228 27;
+    --color-lime-300: 156 194 21;
+    --color-lime-400: 128 159 15;
+    --color-lime-500: 103 128 18;
+    --color-lime-600: 83 103 12;
+    --color-lime-700: 63 79 8;
+    --color-lime-800: 45 56 6;
+    --color-lime-900: 30 35 4;
+
+    --color-green-50: 246 250 245;
+    --color-green-100: 170 255 164;
+    --color-green-200: 44 244 81;
+    --color-green-300: 22 209 64;
+    --color-green-400: 15 171 51;
+    --color-green-500: 49 135 54;
+    --color-green-600: 11 111 32;
+    --color-green-700: 0 86 18;
+    --color-green-800: 0 61 9;
+    --color-green-900: 16 37 16;
+
+    --color-emerald-50: 244 250 246;
+    --color-emerald-100: 163 254 199;
+    --color-emerald-200: 26 242 147;
+    --color-emerald-300: 0 207 122;
+    --color-emerald-400: 16 169 100;
+    --color-emerald-500: 2 136 79;
+    --color-emerald-600: 0 110 61;
+    --color-emerald-700: 0 85 46;
+    --color-emerald-800: 6 60 34;
+    --color-emerald-900: 7 38 22;
+
+    --color-turquoise-50: 243 250 247;
+    --color-turquoise-100: 142 255 226;
+    --color-turquoise-200: 4 239 193;
+    --color-turquoise-300: 2 204 163;
+    --color-turquoise-400: 2 167 133;
+    --color-turquoise-500: 0 135 107;
+    --color-turquoise-600: 0 109 85;
+    --color-turquoise-700: 0 84 65;
+    --color-turquoise-800: 0 60 47;
+    --color-turquoise-900: 3 38 29;
+
+    --color-submarine-50: 242 250 249;
+    --color-submarine-100: 130 255 244;
+    --color-submarine-200: 2 237 219;
+    --color-submarine-300: 2 202 187;
+    --color-submarine-400: 0 166 153;
+    --color-submarine-500: 2 133 122;
+    --color-submarine-600: 2 107 99;
+    --color-submarine-700: 0 83 76;
+    --color-submarine-800: 0 59 54;
+    --color-submarine-900: 0 38 34;
+
+    --color-leaf-50: 242 250 250;
+    --color-leaf-100: 121 255 255;
+    --color-leaf-200: 2 235 239;
+    --color-leaf-300: 0 201 205;
+    --color-leaf-400: 1 164 167;
+    --color-leaf-500: 0 132 134;
+    --color-leaf-600: 1 106 109;
+    --color-leaf-700: 1 82 84;
+    --color-leaf-800: 0 59 60;
+    --color-leaf-900: 0 38 38;
+
+    --color-beach-50: 242 250 251;
+    --color-beach-100: 176 247 255;
+    --color-beach-200: 52 233 253;
+    --color-beach-300: 0 199 220;
+    --color-beach-400: 0 163 181;
+    --color-beach-500: 0 131 147;
+    --color-beach-600: 1 105 119;
+    --color-beach-700: 0 82 92;
+    --color-beach-800: 0 58 65;
+    --color-beach-900: 0 37 42;
+
+    --color-island-50: 242 250 252;
+    --color-island-100: 192 242 255;
+    --color-island-200: 133 225 255;
+    --color-island-300: 35 196 237;
+    --color-island-400: 27 161 195;
+    --color-island-500: 20 129 157;
+    --color-island-600: 15 104 127;
+    --color-island-700: 9 80 99;
+    --color-island-800: 4 57 71;
+    --color-island-900: 2 36 46;
+
+    --color-teal-50: 245 249 254;
+    --color-teal-100: 219 237 255;
+    --color-teal-200: 175 217 255;
+    --color-teal-300: 103 188 255;
+    --color-teal-400: 9 156 231;
+    --color-teal-500: 21 125 185;
+    --color-teal-600: 21 100 150;
+    --color-teal-700: 0 78 119;
+    --color-teal-800: 7 55 85;
+    --color-teal-900: 4 35 56;
+
+    --color-azure-50: 246 248 253;
+    --color-azure-100: 225 235 255;
+    --color-azure-200: 190 213 255;
+    --color-azure-300: 139 182 255;
+    --color-azure-400: 65 149 249;
+    --color-azure-500: 14 120 212;
+    --color-azure-600: 16 96 174;
+    --color-azure-700: 12 74 133;
+    --color-azure-800: 9 52 98;
+    --color-azure-900: 8 33 63;
+
+    --color-indigo-50: 249 248 252;
+    --color-indigo-100: 239 232 252;
+    --color-indigo-200: 222 204 253;
+    --color-indigo-300: 198 165 251;
+    --color-indigo-400: 168 123 253;
+    --color-indigo-500: 138 80 252;
+    --color-indigo-600: 107 38 251;
+    --color-indigo-700: 80 0 218;
+    --color-indigo-800: 56 2 159;
+    --color-indigo-900: 33 2 110;
+
+    --color-pink-50: 250 247 251;
+    --color-pink-100: 252 227 255;
+    --color-pink-200: 252 193 255;
+    --color-pink-300: 248 140 255;
+    --color-pink-400: 239 66 255;
+    --color-pink-500: 202 14 224;
+    --color-pink-600: 164 3 186;
+    --color-pink-700: 127 3 148;
+    --color-pink-800: 91 4 108;
+    --color-pink-900: 61 0 75;
+
+    --color-violet-50: 252 247 250;
+    --color-violet-100: 255 227 247;
+    --color-violet-200: 255 193 239;
+    --color-violet-300: 255 139 227;
+    --color-violet-400: 255 63 207;
+    --color-violet-500: 217 23 168;
+    --color-violet-600: 178 11 135;
+    --color-violet-700: 141 2 104;
+    --color-violet-800: 103 0 74;
+    --color-violet-900: 70 0 49;
+
+    --color-red-50: 253 247 249;
+    --color-red-100: 255 228 239;
+    --color-red-200: 255 195 223;
+    --color-red-300: 255 145 202;
+    --color-red-400: 255 75 177;
+    --color-red-500: 225 16 140;
+    --color-red-600: 184 8 111;
+    --color-red-700: 145 3 84;
+    --color-red-800: 106 1 58;
+    --color-red-900: 72 0 36;
+}
+
