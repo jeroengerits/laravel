@@ -30,7 +30,7 @@ A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help
 
 - **Noto Font Family**: Includes Sans, Serif, and Mono variants for visual consistency.
 - **Custom Color Palette**: Extended Tailwind palette for greater design flexibility.
-- **Blade Icons**: Uses Fluent System Icons by default.
+- **Blade Icons**: Uses [Fluent System](https://fluenticons.co) icons by default.
 
 ### 🧩 Blade Layouts
 
