@@ -9,7 +9,7 @@ A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help
 ### 🔧 Code Quality
 
 - Pre-configured with **Laravel Pint** and **Rector** for consistent code formatting and automated refactoring.
-- Run `composer format` to automatically clean and format your codebase.
+- Run `composer prepare` to automatically lint, check, format and test your codebase.
 
 ### 📦 Eloquent Models
 

@@ -38,10 +38,11 @@
         }
     },
     "scripts": {
-        "format": [
+        "prepare": [
+            "./vendor/bin/phpstan analyse app --ansi --memory-limit=1g",
             "./vendor/bin/pint",
             "./vendor/bin/rector",
-            "./vendor/bin/pest"
+            "./vendor/bin/pest --colors=always --coverage"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
