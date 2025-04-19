@@ -1,8 +1,8 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "jeroengerits/laravel-starter-kit",
+    "name": "jeroengerits/laravel",
     "type": "project",
-    "description": "A personal starter kit for Laravel.",
+    "description": "My starter kit for Laravel.",
     "keywords": [
         "laravel",
         "framework"
