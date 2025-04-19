@@ -17,7 +17,9 @@
 @source '../**/*.js';
 
 @layer base {
-    [x-cloak] { display: none !important; }
+    [x-cloak] {
+        display: none !important;
+    }
 }
 
 /* Theme Custom Variables */
