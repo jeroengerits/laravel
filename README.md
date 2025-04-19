@@ -4,11 +4,15 @@ A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help
 
 > 🚧 This project is currently under active development.
 
+## 🚧 Todo
+
+- Add fluent classname builder and merger
+
 ## 🛠️ Tech Stack
 
-- **Laravel 12**
-- **Tailwind CSS**
-- **Alpine.js**
+- **Laravel** - and solid defaults
+- **Tailwind** - and custom config
+- **Livewire** - and AlpineJS
 
 ## ✨ Features
 
