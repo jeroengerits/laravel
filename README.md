@@ -10,11 +10,15 @@ A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help
 
 ## 🛠️ Tech Stack
 
-- **Laravel** - and solid defaults
-- **Tailwind** - and custom config
-- **Livewire** - and AlpineJS
+- **Laravel 12** - with essential defaults
+- **Tailwind 4** - and custom colors, fonts and config
+- **Livewire 3** - includes AlpineJS
 
 ## ✨ Features
+
+### 🤏🏻 Minimal
+
+- Does **not include** authentication pages (login, register, etc)
 
 ### 🔧 Code Quality
 
