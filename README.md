@@ -41,7 +41,7 @@ A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help
 - **Named Root Route**: The root URL is named `home` for consistency.
 - **Centralized Config**: Includes an `essentials.php` config file to manage key application settings.
 
-### 🎨 Tailwind CSS Integration
+### 🎨 Tailwind CSS + Extras
 
 - **Noto Font Family**: Includes Noto Sans, Serif, and Mono for consistent typography.
 - **Extended Color Palette**: Adds custom color palettes to enhance your design flexibility.
