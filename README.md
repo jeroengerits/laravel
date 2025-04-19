@@ -4,6 +4,9 @@ A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help
 
 > 🚧 This project is a work in progress.
 
+- **AlpineJS**
+- **Tailwind CSS**
+
 ## ✨ Features
 
 ### 🔧 Code Quality
@@ -20,6 +23,16 @@ A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help
     - Learn more: [Should Be Strict](https://laravel-news.com/shouldbestrict)
 - **Automatic Eager Loading**: Improves performance by automatically eager loading model relationships when needed.
 
+### 🎨 Default Styles
+
+- **Noto Font Family**: Includes Noto Sans, Serif, and Mono for consistent typography.
+- **Extended Color Palette**: Adds custom color palettes to enhance your design flexibility.
+- **Icons**: - Blade Icons with Fluent System Icons as default set.
+
+### 🧩 Blade Layouts
+
+- `<x-layouts.html />` - plain HTML wrapper and default styles and scripts.
+
 ### 💯 Testing Enhancements
 
 - **Database Refreshing**: Automatically refreshes the database after each feature test.
@@ -30,23 +43,6 @@ A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help
 
 - **Enforced HTTPS**: All URLs generated in production are secure by default.
 - **Safe Console Commands**: Prevents execution of destructive Artisan commands in production environments.
-
-### 🧩 Frontend
-
-#### Tools
-
-- **AlpineJS**: - Installed AlineJS as a module
-- **Tailwind CSS**: - Installed Tailwind CSS v4 as module
-
-#### Styles
-
-- **Noto Font Family**: Includes Noto Sans, Serif, and Mono for consistent typography.
-- **Extended Color Palette**: Adds custom color palettes to enhance your design flexibility.
-- **Icons**: - Blade Icons with Fluent System Icons as default set.
-
-#### Layouts
-
-- `<x-layouts.html />` - plain HTML wrapper and default styles and scripts.
 
 ### 💨 Performance Optimizations
 
