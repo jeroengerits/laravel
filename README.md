@@ -2,23 +2,23 @@
 
 A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help you build fast, secure, and maintainable applications.
 
-> 🚧 This project is currently under active development.
+> This project is currently under active development.
 
 ## 🚧 Todo
 
 - Add fluent classname builder and merger
 
-## 🛠️ Tech Stack
+## 🛠️ Stack
 
 - **Laravel 12** - with essential defaults
 - **Tailwind 4** - and custom colors, fonts and config
 - **Livewire 3** - includes AlpineJS
 
-## ✨ Features
-
-### 🤏🏻 Minimal
+## 🤏🏻 Minimal
 
 - Does **not include** authentication pages (login, register, etc)
+
+## ✨ Features
 
 ### 🔧 Code Quality
 
