@@ -7,7 +7,7 @@
                 <x-fluentui-cube-24-o class="size-8" />
             {{ config('app.name', 'Laravel') }}
             </button>
-            <div x-show="open">
+            <div x-show="open" x-cloak>
                 Starter Kit
             </div>
         </div>

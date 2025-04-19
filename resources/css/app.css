@@ -16,6 +16,10 @@
 /* Source JavaScript */
 @source '../**/*.js';
 
+@layer base {
+    [x-cloak] { display: none !important; }
+}
+
 /* Theme Custom Variables */
 @theme {
     /* Typography */
