@@ -33,7 +33,9 @@ A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help
 
 ### 🧩 Blade Templates
 
+- **AlpineJS**: - Installed AlineJS as a module
 - `<x-layouts.html />` - plain HTML wrapper and default styles and scripts.
+
 
 ### 💨 Performance Optimizations
 

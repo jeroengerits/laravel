@@ -1,10 +1,15 @@
-<x-layouts.html title="ONBOARD.VIP" description="Welcome to ONBOARD.VIP">
+<x-layouts.html title="Welcome" description="You are on the right track">
     <div class="p-3">
-        <h1 class="text-base font-medium">
-            Welcome to {{ config('app.name', 'Laravel') }}
-        </h1>
-        <p>
-            This is a starter kit for Laravel.
-        </p>
+        <div x-data="{ open: false }">
+            <button @click="open = !open" 
+                class="text-blue-500 hover:underline cursor-pointer" 
+                :class="{ 'text-green-500': open }"
+            >
+                Welcome to Laravel
+            </button>
+            <div x-show="open">
+                This is a starter kit for Laravel.
+            </div>
+        </div>
     </div>
 </x-layouts.html>
