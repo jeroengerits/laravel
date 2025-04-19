@@ -1,8 +1,8 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Import Tailwind CSS */
-@import 'tailwindcss';
+@import "tailwindcss";
 
 /* Source Laravel Pagination */
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
@@ -19,9 +19,9 @@
 /* Theme Custom Variables */
 @theme {
     /* Typography */
-    --font-sans: 'Noto Sans', ui-sans-serif;
-    --font-serif: 'Noto Serif', ui-serif;
-    --font-mono: 'Noto Sans Mono', ui-monospace;
+    --font-sans: "Noto Sans", ui-sans-serif;
+    --font-serif: "Noto Serif", ui-serif;
+    --font-mono: "Noto Sans Mono", ui-monospace;
 
     /* Color Palette */
     --color-rose-50: #fff6f8;
@@ -255,4 +255,3 @@
     --color-red-800: #6a013a;
     --color-red-900: #480024;
 }
-
