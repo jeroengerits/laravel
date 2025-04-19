@@ -1,52 +1,47 @@
-# ⚡ My Starter Kit
+# ⚡ My Laravel Starter Kit
 
-A bare **Laravel 12** starter kit with a sane defaults.
+A minimal yet powerful **Laravel 12** starter kit with sensible defaults to help you build secure, optimized, and maintainable applications quickly.
 
+> 🚧 This project is a work in progress.
 
 ## ✨ Features
 
 ### 🔧 Code Quality
 
-- Includes opinionated configuration of **Pint** and **Rector**. 
-    > Run `composer format` clean your code.
+- Pre-configured with **Laravel Pint** and **Rector** for consistent code formatting and automated refactoring.
+- Run `composer format` to automatically clean and format your codebase.
 
-### 📦 Models
+### 📦 Eloquent Models
 
-- **Should Be Strict** - more info [about should be strict](https://laravel-news.com/shouldbestrict)
-    1. Prevents lazy loading 
-    2. Prevents silently discarding attributes
-    3. Prevents accessing missing attributes.
-- **Auto Eager Loading** - Enabled automatic eager loading of relationships
+- **Strict Mode Enabled**: Enforces best practices by:
+  - Preventing lazy loading of relationships.
+  - Blocking silent discarding of unknown attributes.
+  - Disallowing access to missing attributes.
+  - Learn more: [Should Be Strict](https://laravel-news.com/shouldbestrict)
+- **Automatic Eager Loading**: Improves performance by automatically eager loading model relationships when needed.
 
-### 💯 Testing
+### 💯 Testing Enhancements
 
-- **Refresh Database** - refreshes the database after running feature tests. 
-- **Prevents Stray Requests** - configures Laravel Http Facade to prevent stray requests.
+- **Database Refreshing**: Automatically refreshes the database after each feature test.
+- **No Stray Requests**: Prevents accidental external HTTP requests during tests by configuring Laravel’s HTTP facade.
 
-### 🔒 Security
+### 🔒 Security Features
 
-- **Force HTTPS** - forces secure generated urls on production environment.
-- **Safe Console** - blocks destructive Artisan commands in production 
+- **Enforced HTTPS**: All URLs generated in production are secure by default.
+- **Safe Console Commands**: Prevents execution of destructive Artisan commands in production environments.
 
-### 🧩 Blade
+### 🧩 Blade Templates
 
-#### 📄 Layouts
+- `<x-layouts.html />` - plain HTML wrapper and default styles and scripts.
 
-##### HTML
-```blade
-<x-layouts.html title="ONBOARD.VIP">
-    ...
-</x-layouts.html>
-```
-### 💨 Optimisations
+### 💨 Performance Optimizations
 
-- **Aggresive Prefetching** - Utilizes Vite aggresive prefetching 
-- **Immutable Dates** - Uses CarbonImmutable instead of mutable date objects
-- **Route Name** - Added `home` as route name for root url.
-- **Essentials Config** - Added `essentials.php` config file to configure essential features.
+- **Aggressive Prefetching**: Utilizes Vite's aggressive prefetching for faster page loads.
+- **Immutable Date Handling**: Uses `CarbonImmutable` to avoid unintended date mutations.
+- **Named Root Route**: The root URL is named `home` for consistency.
+- **Centralized Config**: Includes an `essentials.php` config file to manage key application settings.
 
-### 🎨 Tailwind CSS
+### 🎨 Tailwind CSS Integration
 
-- **Noto Fonts** - with sans, serif and mono.
-- **Improved Colors** - with additional palettes.
----
+- **Noto Font Family**: Includes Noto Sans, Serif, and Mono for consistent typography.
+- **Extended Color Palette**: Adds custom color palettes to enhance your design flexibility.
